@@ -33,4 +33,9 @@
 +(void)runPriorityQueueParallel:(GCDBlock)queue charIden:(const char *)identifier {
     dispatch_async(dispatch_queue_create(identifier, DISPATCH_QUEUE_PRIORITY_DEFAULT), queue);
 }
+
++(void)display{
+    NSLog(@"display");
+}
+
 @end

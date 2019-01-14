@@ -8,11 +8,18 @@
 
 #import "HXAppDelegate.h"
 
+#import "JNGCDUtil.h"
+
 @implementation HXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+
+    [JNGCDUtil runInGlobalQueue:^{
+        NSLog(@"thread!");
+    }];
+    
     return YES;
 }
 

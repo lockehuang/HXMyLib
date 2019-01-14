@@ -27,6 +27,9 @@ typedef void (^GCDBlock)(void);
 
 // 自定义并行队列
 +(void)runPriorityQueueParallel:(GCDBlock)queue charIden:(const char *)identifier;
+
++(void)display;
+
 @end
 
 NS_ASSUME_NONNULL_END
