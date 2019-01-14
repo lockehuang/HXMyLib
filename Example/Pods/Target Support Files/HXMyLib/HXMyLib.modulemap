@@ -1,0 +1,6 @@
+framework module HXMyLib {
+  umbrella header "HXMyLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

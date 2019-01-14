@@ -1,0 +1,22 @@
+{
+  "name": "HXMyLib",
+  "version": "0.1.0",
+  "summary": "A short description of HXMyLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lockehuang/HXMyLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lockehuang": "hx_huang126@126.com"
+  },
+  "source": {
+    "git": "https://github.com/lockehuang/HXMyLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HXMyLib/Classes/**/*"
+}

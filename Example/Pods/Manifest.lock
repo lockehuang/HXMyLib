@@ -1,0 +1,16 @@
+PODS:
+  - HXMyLib (0.1.0)
+
+DEPENDENCIES:
+  - HXMyLib (from `../`)
+
+EXTERNAL SOURCES:
+  HXMyLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HXMyLib: 6e2b01c4d86427a22e48f03fa165825a67c8ab1c
+
+PODFILE CHECKSUM: 6767d6c23bf0981879aac8319ea7af5066f59ae7
+
+COCOAPODS: 1.6.0.beta.2
